@@ -1,0 +1,30 @@
+---
+title: "Functions \\& Relations"
+output:
+  bookdown::pdf_document2:
+    template: presentation-template.tex
+    keep_tex: true
+---
+\clearpage
+::: {.dbox data-latex='{Definition}'}
+A **relation** $R$ from the set $X$ to a set $Y$ is a rule that assigns to each element of $X$ at least one element of $Y$.  
+:::
+
+```{=tex}
+\fonter{60pt}
+\begin{itemize}
+ \item[] $X$ is called the \textit{\bfseries domain} of $R$
+ \item[] $Y$ is called the \textit{\bfseries co-domain} of $R$
+\end{itemize}
+```
+
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{img/relations-slide-01-annotation.pdf}
+\end{center}
+\newpage
+
+
+::: {.dbox data-latex='{Definition}'}
+The **range** of a relation $R$ is the set of all elements in the co-domain $Y$ that is assigned to some element in the domain $X$.
+:::
